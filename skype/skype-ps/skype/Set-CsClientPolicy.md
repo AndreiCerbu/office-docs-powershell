@@ -1001,7 +1001,16 @@ Accept wildcard characters: False
 ```
 
 ### -EnableExchangeContactSync
-When set to True (the default value) Skype for Business creates a corresponding personal contact in Outlook for each person on a user's Skype for Business Contacts list.
+When set to True (the default value) Skype for Business creates a corresponding personal contact in Outlook for each perso
+### -EnableExchangeDelegateSync
+When set to True, a user that has been configured in Outlook will be allowed to schedule online Lync Calendar meetings for that user (this happens via Lync UCMAPI delegation, without the need of the Enterprise Voice feature).
+
+
+```yaml
+Type: Boolean
+Parameter Sets: (All)
+Aliases: 
+Applicable: Lync Server 2010, Lync Server 2013, Skype for Business Server 2015. For Skype for Business Online, the attribute is always set to True.n on a user's Skype for Business Contacts list.
 
 
 ```yaml
@@ -1017,15 +1026,6 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -EnableExchangeDelegateSync
-When set to True, a user that has been configured in Outlook will be allowed to schedule online Lync Calendar meetings for that user (this happens via Lync UCMAPI delegation, without the need of the Enterprise Voice feature).
-
-
-```yaml
-Type: Boolean
-Parameter Sets: (All)
-Aliases: 
-Applicable: Lync Server 2010, Lync Server 2013, Skype for Business Online, Skype for Business Server 2015
 
 Required: False
 Position: Named
