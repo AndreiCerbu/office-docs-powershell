@@ -1025,7 +1025,7 @@ When set to True, a user that has been configured in Outlook will be allowed to 
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
-Applicable: Lync Server 2010, Lync Server 2013, Skype for Business Online, Skype for Business Server 2015
+Applicable: Lync Server 2010, Lync Server 2013, Skype for Business Server 2015. For Skype for Business Online, this attribute is always True.
 
 Required: False
 Position: Named
